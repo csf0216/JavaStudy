@@ -1,0 +1,54 @@
+$ javac -cp ./IitShare.java
+javac: no source files
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+wangmin@MSH-LT3135 /cygdrive/c/Users/wangmin/work/Study/Java/testJarPackage
+$ javac  ./IitShare.java
+
+wangmin@MSH-LT3135 /cygdrive/c/Users/wangmin/work/Study/Java/testJarPackage
+$ jar cvf IitShare.jar .
+added manifest
+adding: IitShare.class(in = 646) (out= 384)(deflated 40%)
+adding: IitShare.java(in = 371) (out= 245)(deflated 33%)
+
+wangmin@MSH-LT3135 /cygdrive/c/Users/wangmin/work/Study/Java/testJarPackage
+$ jar cvf IitShare.jar ./*.class
+added manifest
+adding: IitShare.class(in = 646) (out= 384)(deflated 40%)
+
+wangmin@MSH-LT3135 /cygdrive/c/Users/wangmin/work/Study/Java/testJarPackage
+$ javac -cp .\iitshare.jar .\com\iitshare\model\CallIitShare.java
+javac: file not found: .comiitsharemodelCallIitShare.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+wangmin@MSH-LT3135 /cygdrive/c/Users/wangmin/work/Study/Java/testJarPackage
+$ javac -cp ./iitshare.jar ./com/iitshare/model/CallIitShare.java
+.\com\iitshare\model\CallIitShare.java:12: error: cannot find symbol
+        System.out.println(IitShare.getSiteInfo("itblood"));
+                           ^
+  symbol:   variable IitShare
+  location: class CallIitShare
+1 error
+
+wangmin@MSH-LT3135 /cygdrive/c/Users/wangmin/work/Study/Java/testJarPackage
+$ jar cvf IitShare.jar ./*.class
+.\*.class : no such file or directory
+added manifest
+
+wangmin@MSH-LT3135 /cygdrive/c/Users/wangmin/work/Study/Java/testJarPackage
+$ jar cvf IitShare.jar ./com/iitshare/model/*.class
+added manifest
+adding: com/iitshare/model/IitShare.class(in = 646) (out= 384)(deflated 40%)
+
+wangmin@MSH-LT3135 /cygdrive/c/Users/wangmin/work/Study/Java/testJarPackage
+$ javac -cp ./iitshare.jar ./com/iitshare/model/CallIitShare.java
+
+wangmin@MSH-LT3135 /cygdrive/c/Users/wangmin/work/Study/Java/testJarPackage
+$ java com.iitshare.model.CallIitShare
+itbloodhello, hello, welcome you to iitshare website
+
+wangmin@MSH-LT3135 /cygdrive/c/Users/wangmin/work/Study/Java/testJarPackage
+$ java -cp . com.iitshare.model.CallIitShare
+itbloodhello, hello, welcome you to iitshare website

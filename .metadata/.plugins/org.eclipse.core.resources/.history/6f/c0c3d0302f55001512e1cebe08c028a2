@@ -1,0 +1,17 @@
+package com.test;
+
+import java.net.InetAddress;
+import java.net.Socket;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Socket s = new Socket();
+		InetAddress addr =  InetAddress.getByName("www.baidu.com");
+		s.connect(arg0)
+	}
+
+}

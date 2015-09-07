@@ -1,0 +1,59 @@
+POST http://www.newsmth.net/nForum/user/ajax_login.json HTTP/1.1
+Host: www.newsmth.net
+Connection: keep-alive
+Content-Length: 28
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://www.newsmth.net
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Referer: http://www.newsmth.net/nForum/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Hm_lvt_9c7f4d9b7c00cb5aba2c637c64a41567=1433729810,1433841347,1434094530,1434334746; Hm_lpvt_9c7f4d9b7c00cb5aba2c637c64a41567=1434336230; tma=88525828.73341213.1427260180464.1434094530178.1434334746225.55; tmd=351.88525828.73341213.1427260180464.; bfd_session_id=bfd_g=b56c782bcb75035d000051c603353ea455124314&bfd_s=88525828.54015121.1434334746215; main[XWJOKE]=hoho; main[UTMPUSERID]=guest; main[UTMPKEY]=69228490; main[UTMPNUM]=7925
+
+id=csf0216&passwd=8802165817
+
+
+
+
+
+
+GET http://www.newsmth.net/nForum/user/ajax_session.json HTTP/1.1
+Host: www.newsmth.net
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Referer: http://www.newsmth.net/nForum/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Hm_lvt_9c7f4d9b7c00cb5aba2c637c64a41567=1433729810,1433841347,1434094530,1434334746; Hm_lpvt_9c7f4d9b7c00cb5aba2c637c64a41567=1434336230; bfd_session_id=bfd_g=b56c782bcb75035d000051c603353ea455124314&bfd_s=88525828.54015121.1434334746215; main[UTMPUSERID]=csf0216; main[UTMPKEY]=82427678; main[UTMPNUM]=3202; main[PASSWORD]=%250B%253E%2525R%257F%2560%250B%2501%255E%255E%252FQCv%2510xk%2500WP%250Bq%255B%2504; main[XWJOKE]=hoho; tmc=1.88525828.75470634.1434336229790.1434336229790.1434336229790; tma=88525828.73341213.1427260180464.1434094530178.1434334746225.55; tmd=352.88525828.73341213.1427260180464.
+
+
+
+GET http://www.newsmth.net/nForum/slist.json?uid=csf0216&root=list-section HTTP/1.1
+Host: www.newsmth.net
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Referer: http://www.newsmth.net/nForum/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Hm_lvt_9c7f4d9b7c00cb5aba2c637c64a41567=1433729810,1433841347,1434094530,1434334746; Hm_lpvt_9c7f4d9b7c00cb5aba2c637c64a41567=1434336230; bfd_session_id=bfd_g=b56c782bcb75035d000051c603353ea455124314&bfd_s=88525828.54015121.1434334746215; main[UTMPUSERID]=csf0216; main[UTMPKEY]=82427678; main[UTMPNUM]=3202; main[PASSWORD]=%250B%253E%2525R%257F%2560%250B%2501%255E%255E%252FQCv%2510xk%2500WP%250Bq%255B%2504; main[XWJOKE]=hoho; tmc=1.88525828.75470634.1434336229790.1434336229790.1434336229790; tma=88525828.73341213.1427260180464.1434094530178.1434334746225.55; tmd=352.88525828.73341213.1427260180464.
+
+
+GET http://www.newsmth.net/nForum/article/WorldSoccer/16342199?ajax HTTP/1.1
+Host: www.newsmth.net
+Connection: keep-alive
+Accept: */*
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+Referer: http://www.newsmth.net/nForum/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Hm_lvt_9c7f4d9b7c00cb5aba2c637c64a41567=1433729810,1433841347,1434094530,1434334746; Hm_lpvt_9c7f4d9b7c00cb5aba2c637c64a41567=1434336230; bfd_session_id=bfd_g=b56c782bcb75035d000051c603353ea455124314&bfd_s=88525828.54015121.1434334746215; main[UTMPUSERID]=csf0216; main[UTMPKEY]=82427678; main[UTMPNUM]=3202; main[PASSWORD]=%250B%253E%2525R%257F%2560%250B%2501%255E%255E%252FQCv%2510xk%2500WP%250Bq%255B%2504; main[XWJOKE]=hoho; tmc=1.88525828.75470634.1434336229790.1434336229790.1434336229790; tma=88525828.73341213.1427260180464.1434094530178.1434334746225.55; tmd=352.88525828.73341213.1427260180464.
+If-Modified-Since: Mon, 15 Jun 2015 02:41:07 GMT
+
+

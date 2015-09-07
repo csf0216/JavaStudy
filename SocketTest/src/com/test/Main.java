@@ -1,0 +1,27 @@
+package com.test;
+
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.SocketAddress;
+import java.net.UnknownHostException;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Socket s = new Socket();
+		InetAddress addr;
+		try {
+			addr = InetAddress.getByName("www.baidu.com");
+			System.out.println("Ip address of baidu is "+addr.getHostAddress());
+			s.connect(new SocketAddress(addr.getHostAddress(),80));
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+//		s.connect(addr.)
+	}
+
+}
