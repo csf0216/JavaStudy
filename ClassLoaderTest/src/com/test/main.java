@@ -1,6 +1,6 @@
 package com.test;
 
-public class main {
+public class Main {
 
 	/**
 	 * @param args
