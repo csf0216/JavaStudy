@@ -10,7 +10,6 @@ public class CharTest {
 		try {
 			System.out.println(Arrays.toString(s.getBytes("UTF-16")));
 		} catch (UnsupportedEncodingException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

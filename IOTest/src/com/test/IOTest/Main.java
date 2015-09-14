@@ -8,7 +8,6 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.setProperty("file.ecodeing", "UTF-8");
 		System.out.println(System.getProperty("file.encoding"));
 		CharTest.test();

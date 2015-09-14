@@ -1,5 +1,6 @@
-.metadata
+.metadata/
 *.class
 *.jar
 *.pdf
 *.patch
+Jars

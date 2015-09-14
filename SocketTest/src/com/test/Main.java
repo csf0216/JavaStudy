@@ -18,6 +18,7 @@ public class Main {
 		Socket s = new Socket();
 		InetAddress addr;
 		String line;
+		startServer();
 		try {
 			addr = InetAddress.getByName("www.baidu.com");
 			System.out.println("Ip address of baidu is "+addr.getHostAddress());
@@ -41,7 +42,16 @@ public class Main {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-//		s.connect(addr.)
+	}
+	
+	public static void startServer() {
+		Thread t = new SocketServer(81);
+		t.start();
+		try {
+			t.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 
 }
